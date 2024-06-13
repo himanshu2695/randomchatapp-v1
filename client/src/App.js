@@ -8,7 +8,7 @@ import TextField from '@mui/material/TextField';
 //const socket = io('https://randomchatapp-v1.onrender.com');
 
 
- const socket = io('http://localhost:4000');
+ const socket = io(process.env.URI);
 
 
  function formatAMPM(date) {
